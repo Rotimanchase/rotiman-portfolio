@@ -42,7 +42,7 @@ async function HeroSection() {
           <div className="grid grid-cols-1 @3xl:grid-cols-2 gap-8 @lg:gap-12 items-center">
             {/* Text Content */}
             <div className="@container/hero space-y-4 @md/hero:space-y-6">
-              <h1 className="text-3xl @md/hero:text-3xl @lg/hero:text-6xl font-bold tracking-tight">
+              <h1 className="text-4xl @md/hero:text-3xl @lg/hero:text-7xl font-bold tracking-tight">
                 {profile.firstName}{" "}
                 <span className="text-primary">{profile.lastName}</span>
               </h1>
